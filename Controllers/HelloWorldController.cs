@@ -17,6 +17,7 @@ namespace MvcMovie.Controllers
         // Requires using System.Text.Encodings.Web;
         public string Welcome(string name, int ID = 1)
         {
+            // Something new
             return HtmlEncoder.Default.Encode($"Hello {name}, ID: {ID}");
         }
     }
